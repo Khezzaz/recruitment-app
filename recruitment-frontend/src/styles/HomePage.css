@@ -1,0 +1,220 @@
+/* Existing CSS */
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  background-color: #252F38; /* Updated background color */
+  background-image: url('pexels-luis-gomes-166706-546819.jpg');
+  background-size: cover;
+  background-position: center;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+body {
+  display: flex;
+  flex-direction: column; /* Ensure column layout */
+  color: #fff;
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+}
+
+.cover-container {
+  flex: 1; /* Allow the cover container to grow and take available space */
+}
+
+.content-container {
+  flex: 1; /* Allow content container to take up available space */
+  display: flex;
+  flex-direction: column;
+}
+
+.new-section {
+  flex-shrink: 0; /* Prevent the new section from shrinking */
+  width: 100%; /* Full width */
+  background-color: #fff;
+  color: #252F38; /* Text color for contrast */
+  padding: 2rem 0; /* Adjust padding as needed */
+}
+
+.new-section .container {
+  max-width: 1140px; /* or whatever width you prefer */
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #252F38; /* Updated button text color */
+  text-shadow: none;
+  background-color: #5B790F; /* Updated button background color */
+  border: .05rem solid #5B790F;
+}
+
+/*
+ * Header
+ */
+.masthead {
+  margin-bottom: 2rem;
+  position: relative; /* Ensure the position context is set for child elements */
+}
+
+.masthead-brand {
+  margin-bottom: 0;
+  z-index: 2; /* Ensure it stays above other content */
+}
+.masthead-icon {
+  height: 40px; /* Adjust the height as needed */
+  width: auto;
+  vertical-align: middle;
+  position: fixed; /* Fixes the icon to the viewport */
+  left: 1rem; /* Aligns the icon to the very left of the viewport */
+  top: 1rem; /* Optionally, align it to the very top of the viewport */
+}
+
+.nav-masthead {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0;
+  background: rgba(37, 47, 56, 0.7); /* Semi-transparent background */
+  backdrop-filter: blur(10px); /* Blur effect */
+}
+
+.nav-masthead .nav-link {
+  padding: .25rem 1rem;
+  font-weight: 700;
+  color: rgba(255, 255, 255, .7);
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+  transition: color 0.3s, border-bottom-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  color: #5B790F; /* Change color on hover */
+  border-bottom-color: #5B790F; /* Change border color on hover */
+}
+
+.nav-masthead .nav-link:active {
+  color: #5B790F; /* Change color on click */
+  border-bottom-color: #5B790F; /* Change border color on click */
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #5B790F; /* Accent color for active link */
+}
+
+@media (min-width: 48em) {
+  .masthead-brand {
+    float: left;
+  }
+  .nav-masthead {
+    float: right;
+  }
+}
+
+/*
+ * Cover
+ */
+.cover {
+  padding: 0 1.5rem;
+}
+
+.cover .btn-lg {
+  padding: .75rem 1.25rem;
+  font-weight: 700;
+}
+
+/*
+ * Footer
+ */
+.footer {
+  flex-shrink: 0; /* Prevent the footer from shrinking */
+  width: 100%; /* Full width */
+  background-color: #5B790F; /* Green background color */
+  color: #fff; /* White text color */
+  padding: 2rem 0; /* Adjust padding as needed */
+  text-align: center; /* Center text alignment */
+}
+
+.footer .container {
+  max-width: 1140px; /* or whatever width you prefer */
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+
+.new-section {
+  flex-shrink: 0; /* Prevent the new section from shrinking */
+  width: 100%; /* Full width */
+  background-color: #fff;
+  color: #252F38; /* Text color for contrast */
+  padding: 2rem 0; /* Adjust padding as needed */
+}
+
+.new-section .container {
+  max-width: 1140px; /* or whatever width you prefer */
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.new-section .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.new-section .col-md-6 {
+  padding: 1rem;
+}
+
+
+/* Add this to your CSS file */
+.inner.cover {
+  padding-top: 300px; /* Adjust the value as needed */
+}
+
+.social-icons a {
+  display: flex;
+  align-items: center;
+}
+
+.social-icons img.social-icon {
+  width: 24px; /* Adjust size as needed */
+  height: auto;
+}
+
+.social-icons p {
+  margin: 0;
+  padding-left: 8px; /* Adjust spacing between icon and text */
+}
+.bg-grey {
+  background-color:#252F38; /* Grey background color */
+}

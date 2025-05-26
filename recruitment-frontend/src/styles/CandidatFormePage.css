@@ -1,0 +1,22 @@
+.form-page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  padding: 2rem;
+}
+
+.form-card-wrapper {
+  width: 100%;
+  max-width: 800px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.form-card-wrapper:hover {
+  transform: translateY(-5px);
+}
