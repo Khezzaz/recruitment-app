@@ -1,0 +1,72 @@
+.exam-container {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.exam-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.exam-header h2 {
+  font-size: 2.2rem;
+  color: #2d3436;
+  margin-bottom: 0.5rem;
+}
+
+.exam-duration {
+  color: #6c757d;
+  font-size: 1.1rem;
+}
+
+.exercise-card {
+  background: rgb(113, 58, 58);
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+}
+
+.exercise-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.exercise-tag {
+  background: #0984e3;
+  color: rgb(13, 13, 13);
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+}
+
+.exercise-description {
+  color: #000000;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.exam-footer {
+  text-align: center;
+  margin: 3rem 0;
+}
+
+.submit-exam-button {
+  background: #00b894;
+  color: white;
+  padding: 15px 40px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.submit-exam-button:hover {
+  background: #00a382;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 184, 148, 0.3);
+}
