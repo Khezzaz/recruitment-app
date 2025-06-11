@@ -1,0 +1,27 @@
+.candidat-form-container {
+    background-color: #f8f9fa;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .form-title {
+    color: #007bff;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+  }
+  
+  .submit-btn {
+    background-color: #007bff;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0056b3;
+  }
+  
